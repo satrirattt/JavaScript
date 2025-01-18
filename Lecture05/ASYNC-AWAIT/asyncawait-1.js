@@ -9,8 +9,10 @@ async function run() {
     //logic
     console.log("Start!!");
     //try take of await and compare
-    await promiseTimeout(2000);
+    await promiseTimeout(2000); //wait stop deng
     console.log("Stop!!");    
 }
 
+console.log('Before run');
 run();
+console.log('After run');
